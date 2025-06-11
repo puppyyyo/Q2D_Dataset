@@ -1,0 +1,4 @@
+# Ignore full corpus files to reduce repo size.
+# These files are compressed into corpus_all.zip and can be restored when needed.
+**/corpus_all.json
+**/*.zip
