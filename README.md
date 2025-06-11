@@ -34,3 +34,33 @@ Each crime-type folder contains the following files and subdirectories:
     - `corpus_json`: The retrieval corpus.
     - `queries.json`: Processed queries from `summary.json`.
     - `qrels.json`: Relevance annotations that indicate which documents are relevant to each query.
+
+## Example
+
+`corpus.json`
+
+```json
+{
+    "id": 0,
+    "text": "臺灣臺中地方法院刑事簡易判決104年度審簡字第896號公訴人臺灣臺中地方法院檢察署檢察官被告游麗華上列被告因偽造文書案件，經檢察官提起公訴（104年度調偵字第21號），因被告於本院訊問程序就被訴事實為有罪之陳述（104年度審易字第1476號），本院認為宜以簡易判決處刑，裁定逕以簡易判決處刑，判決如下：主文游麗華犯使公務員登載不實文書罪，處拘役伍拾日，如易科罰金，以新臺幣壹仟元折算壹日..."
+}
+```
+
+`queries.json`
+
+```json
+{
+    "id": 0,
+    "text": "被告明知詐欺集團成員，仍介紹未成年人參與詐欺，提供聯絡工具協助冒用公務員名義詐取財物。"
+}
+```
+
+`qrels.json`
+
+```json
+{
+    "qid": 0,
+    "docid": 466,
+    "relevance": 1
+}
+```
