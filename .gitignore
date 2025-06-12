@@ -2,3 +2,13 @@
 # These files are compressed into corpus_all.zip and can be restored when needed.
 **/corpus_all.json
 **/*.zip
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore test files
+*test*
+utils.py
